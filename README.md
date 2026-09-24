@@ -54,5 +54,14 @@ linux_updates.yml: batched two hosts at a time (serial: 2) to avoid patching the
 
 <br/>
 
+<h2>Nightly Automation</h2>
+This image Confirm run-nightly.sh completes successfully end to end (all four playbooks: security checks, config backup, patching, VM status report) when run manually, then verify the cron schedule is correctly in place for unattended nightly execution.
 
+<br />  
+<br/>
+<img src="https://imgur.com/AGSp9I2.jpg"  height="80%" width="100%">
+
+<br />  
+
+<br/>
 
